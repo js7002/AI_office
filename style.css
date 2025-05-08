@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    background: #eee;
+    padding: 20px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  nav a.active {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
+ 
+.spaced-list {
+    line-height: 1.8; /* 줄간격 조절 */
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  
+  .nav-left a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .nav-right {
+    display: flex;
+    gap: 5px;
+  }
+  
+  #searchInput {
+    padding: 5px;
+    font-size: 14px;
+  }
