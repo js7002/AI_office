@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
   highlightActiveNav();
 });
 
-// 현재 URL에 따라 nav에서 해당 링크에 .active 클래스 추가
 function highlightActiveNav() {
   const navLinks = document.querySelectorAll("nav .nav-left a");
   const currentPage = window.location.pathname.split("/").pop();
@@ -15,7 +14,6 @@ function highlightActiveNav() {
   });
 }
 
-// 검색 기능: 검색어로 해당 페이지 이동
 function searchSite() {
   const query = document.getElementById("searchInput").value.toLowerCase();
 
