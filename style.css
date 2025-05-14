@@ -62,3 +62,36 @@ body {
     padding: 5px;
     font-size: 14px;
   }
+.assignment {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.assignment h2 {
+  color: #333366;
+  margin-bottom: 15px;
+}
+
+.assignment ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.assignment li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.assignment a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.assignment a:hover {
+  text-decoration: underline;
+}
